@@ -1,19 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import IngredientControls from './components/IngredientControls';
+import PizzaPrice from './components/PizzaPrice';
+import Pizza from './components/pizza/Pizza';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <main className="App">
+        <header>
+          <h1>Pizza Builder</h1>
+          <p>Build your own HTML and CSS pizza.</p>
+        </header>
+
+        <IngredientControls />
+        <PizzaPrice />
+        <Pizza />
+
+        <footer>
+          <p>
+            This pizza educational experience<br />
+            brought to you by
+            <a href="http://ironhack.com" target="_blank" rel="noopener noreferrer">Ironhack</a>.
+          </p>
+        </footer>
+      </main>
     );
   }
 }

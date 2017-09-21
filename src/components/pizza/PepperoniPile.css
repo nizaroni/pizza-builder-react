@@ -1,0 +1,143 @@
+.pepperoni {
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  border-radius: 60px;
+  background: #b3241c;
+  z-index: 15;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: inset 0 0 85px #711712;
+  border: 2px solid #871b15;
+  text-indent: -9999px;
+  color: #fff;
+}
+
+.pepperoni.one {
+  margin: 60px 0 0 305px;
+}
+
+.pepperoni.two {
+  margin: 75px 0 0 390px;
+}
+
+.pepperoni.three {
+  margin: 115px 0 0 470px;
+}
+
+.pepperoni.four {
+  margin: 190px 0 0 525px;
+}
+
+.pepperoni.five {
+  margin: 275px 0 0 555px;
+}
+
+.pepperoni.six {
+  margin: 365px 0 0 550px;
+}
+
+.pepperoni.seven {
+  margin: 450px 0 0 515px;
+}
+
+.pepperoni.eight {
+  margin: 515px 0 0 450px;
+}
+
+.pepperoni.nine {
+  margin: 555px 0 0 365px;
+}
+
+.pepperoni.ten {
+  margin: 560px 0 0 270px;
+}
+
+.pepperoni.eleven {
+  margin: 560px 0 0 270px;
+}
+
+.pepperoni.twelve {
+  margin: 524px 0 0 182px;
+}
+
+.pepperoni.thirteen {
+  margin: 265px 0 0 355px;
+}
+
+.pepperoni.fourteen {
+  margin: 233px 0 0 445px;
+}
+
+.pepperoni.fifteen {
+  margin: 467px 0 0 340px;
+}
+
+.pepperoni.sixteen {
+  margin: 194px 0 0 197px;
+}
+
+.pepperoni.seventeen {
+  margin: 329px 0 0 458px;
+}
+
+.pepperoni.eightteen {
+  margin: 461px 0 0 115px;
+}
+
+.pepperoni.nineteen {
+  margin: 380px 0 0 69px;
+}
+
+.pepperoni.twenty {
+  margin: 287px 0 0 60px;
+}
+
+.pepperoni.twenty-one {
+  margin: 197px 0 0 86px;
+}
+
+.pepperoni.twenty-two {
+  margin: 125px 0 0 141px;
+}
+
+.pepperoni.twenty-three {
+  margin: 84px 0 0 218px;
+}
+
+.pepperoni.twenty-four {
+  margin: 150px 0 0 278px;
+}
+
+.pepperoni.twenty-five {
+  margin: 167px 0 0 374px;
+}
+
+.pepperoni.twenty-six {
+  margin: 457px 0 0 247px;
+}
+
+.pepperoni.twenty-seven {
+  margin: 426px 0 0 426px;
+}
+
+.pepperoni.twenty-eight {
+  margin: 390px 0 0 177px;
+}
+
+.pepperoni.twenty-nine {
+  margin: 290px 0 0 153px;
+}
+
+.pepperoni.thirty {
+  margin: 362px 0 0 267px;
+}
+
+.pepperoni.thirty-one {
+  margin: 270px 0 0 257px;
+}
+
+.pepperoni.thirty-three {
+  margin: 358px 0 0 365px;
+}

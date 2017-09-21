@@ -1,0 +1,35 @@
+.PizzaPrice {
+  right: 0;
+}
+
+.PizzaPrice h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.PizzaPrice h2::after {
+  content: ':';
+}
+
+.PizzaPrice b {
+  font-size: 20px;
+  color: #e2311a;
+}
+
+.PizzaPrice li {
+  margin: 5px 20px 0;
+  color: #666;
+}
+
+.PizzaPrice li::before {
+  content: '+ ';
+  color: #e2311a;
+}
+
+.PizzaPrice strong {
+  font-size: 30px;
+  display: block;
+  margin-top: 6px;
+}

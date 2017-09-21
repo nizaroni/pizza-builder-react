@@ -1,0 +1,85 @@
+/*
+ * Pizza from:
+ * https://codepen.io/dsmoore/pen/fiwAl?editors=1100#0
+ */
+
+ /*----- Pizza -----*/
+.Pizza {
+  margin: 15px auto;
+  width: 702px;
+  height: 702px;
+  overflow: hidden;
+  position: relative;
+}
+
+@media screen and (max-width: 720px) {
+  .Pizza {
+    margin: -71px auto 87px;
+    width: 220px;
+    height: 220px;
+    transform: rotate(47deg);
+  }
+}
+
+
+/*----- Crust -----*/
+.crust {
+  width: 700px;
+  height: 700px;
+  border-radius: 800px;
+  background: #ab5f2b;
+  box-shadow: inset 0 0 40px #e5a53b;
+  border: 1px solid #ab5f2b;
+}
+
+.crust-gluten-free {
+  background-color: #e0d5cf;
+  box-shadow: inset 0 0 40px #d3c3bb;
+}
+
+
+/*----- Sauce -----*/
+.sauce {
+  position: absolute;
+  width: 620px;
+  height: 620px;
+  border-radius: 720px;
+  background: #640d15;
+  margin: 40px 0 0 40px;
+  box-shadow: inset 0 0 10px #dd2f25;
+}
+
+.sauce-white {
+  background: #fff4aa;
+}
+
+
+/*----- Cheese -----*/
+.cheese {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 700px;
+  background: #f3d255;
+  margin: 50px 0 0 50px;
+  z-index: 10;
+  box-shadow: inset 0 0 200px #d88e24;
+}
+
+
+/*----- Crumbs (small screens only) -----*/
+.crumbs {
+  opacity: 0;
+  transition: all .3s linear;
+}
+
+@media screen and (max-width: 720px) {
+  .crumbs {
+    margin: -60px 0 0 36%;
+    position: absolute;
+    font-size: 25px;
+    z-index: 10000;
+    color: #975426;
+    opacity: 1;
+  }
+}

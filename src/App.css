@@ -1,24 +1,75 @@
-.App {
+/*----- General -----*/
+body {
+  font-family: 'Courier', 'Courier New', Serif;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    padding: 25px 0;
+  }
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul,
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+
+/*----- Header -----*/
+header {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+header h1 {
+  margin-bottom: 10px;
+  color: #444;
+  font-weight: normal;
+  font-size: 70px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+@media screen and (max-width: 720px) {
+  header h1 {
+    font-size: 50px;
+  }
 }
 
-.App-intro {
-  font-size: large;
+header p {
+  font-size: 14px;
+  color: #999;
+  font-style: italic;
+  margin: 0 0 25px 0;
+  padding: 0 5px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+
+/*----- Footer -----*/
+footer {
+  margin: 0 0 30px 0;
+  padding: 5px;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+footer a {
+  color: #3974a8;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 720px) {
+  footer {
+    margin: 70px 0 10px;
+  }
 }

@@ -1,0 +1,166 @@
+/*----- General -----*/
+.IngredientControls {
+  left: 0;
+}
+
+/*
+ * Buttons from:
+ * http://codepen.io/TeshaR/pen/cdugG?editors=110
+ */
+ .btn {
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  margin: 0 7px 11px 0;
+  padding: 0 20px;
+  text-align: center;
+
+  /* Smooth out press and hover effects.
+   * Otherwise, the pressed button effect looks too abrupt. */
+  transition: all 0.2s ease;
+
+  /* Size */
+  line-height: 45px;
+  width: 100%;
+  height: 45px;
+  font-size: 120%;
+
+  /* Colors */
+  background: #f7f7f7;
+  box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+  color: #888;
+}
+
+.btn:hover {
+  background: #e6e6e6;
+  box-shadow: 0 5px #aaa;
+  color: #888;
+}
+
+/* Imitate a pressed effect for buttons
+ * (using "button" & ".turned-on" for specificity) */
+button.btn:active.turned-on,
+button.btn:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn.turned-on {
+  top: 2px;
+}
+
+
+/*----- Pepperoni Button -----*/
+.btn-pepperoni {
+  background: #e8103b;
+  box-shadow: 0 6px #890923;
+  color: #fff;
+}
+
+.btn-pepperoni:hover {
+  background: #c80e33;
+  box-shadow: 0 5px #69071b;
+  color: #fff;
+}
+
+.btn-pepperoni.turned-on {
+  box-shadow: 0 2px #890923;
+}
+
+.btn-pepperoni.turned-on:hover {
+  box-shadow: 0 2px #69071b;
+}
+
+
+/*----- Mushrooms Button -----*/
+.btn-mushrooms {
+  background: #b49989;
+  box-shadow: 0 6px #644d40;
+  color: #fff;
+}
+
+.btn-mushrooms:hover {
+  background: #a78774;
+  box-shadow: 0 5px #503d33;
+  color: #fff;
+}
+
+.btn-mushrooms.turned-on {
+  box-shadow: 0 2px #644d40;
+}
+
+.btn-mushrooms.turned-on:hover {
+  box-shadow: 0 2px #503d33;
+}
+
+
+/*----- Green Peppers Button -----*/
+.btn-green-peppers {
+  background: #129306;
+  box-shadow: 0 6px #0a5203;
+  color: #fff;
+}
+
+.btn-green-peppers:hover {
+  background: #0e7205;
+  box-shadow: 0 5px #063102;
+  color: #fff;
+}
+
+.btn-green-peppers.turned-on {
+  box-shadow: 0 2px #0a5203;
+}
+
+.btn-green-peppers.turned-on:hover {
+  box-shadow: 0 2px #063102;
+}
+
+
+/*----- Sauce Button -----*/
+.btn-sauce {
+  background: #fff4aa;
+  box-shadow: 0 6px #998500;
+  color: #555;
+}
+
+.btn-sauce:hover {
+  background: #fff088;
+  box-shadow: 0 5px #776800;
+  color: #555;
+}
+
+.btn-sauce.turned-on {
+  box-shadow: 0 2px #998500;
+}
+
+.btn-sauce.turned-on:hover {
+  box-shadow: 0 2px #776800;
+}
+
+
+/*----- Crust Button -----*/
+.btn-crust {
+  background: #e0d5cf;
+  box-shadow: 0 6px #957160;
+  color: #555;
+}
+
+.btn-crust:hover {
+  background: #d3c3bb;
+  box-shadow: 0 5px #816253;
+  color: #555;
+}
+
+.btn-crust.turned-on {
+  box-shadow: 0 2px #957160;
+}
+
+.btn-crust.turned-on:hover {
+  box-shadow: 0 2px #816253;
+}

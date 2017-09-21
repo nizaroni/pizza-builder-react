@@ -1,0 +1,119 @@
+/*
+ * Pizza from:
+ * https://codepen.io/dsmoore/pen/fiwAl?editors=1100#0
+ */
+ 
+.green-pepper {
+  position: absolute;
+  width: 20px;
+  height: 45px;
+  background: #2f5e20;
+  box-shadow: 2px 2px 2px rgba(66, 132, 45, .9);
+  margin: 250px 0 0 400px;
+  z-index: 30;
+}
+
+.green-pepper.one {
+  margin: 200px 0 0 100px;
+  transform: rotate(22deg);
+}
+
+.green-pepper.two {
+  margin: 450px 0 0 500px;
+  transform: rotate(-47deg);
+}
+
+.green-pepper.three {
+  margin: 195px 0 0 200px;
+  transform: rotate(115deg);
+}
+
+.green-pepper.four {
+  margin: 90px 0 0 300px;
+  transform: rotate(67deg);
+}
+
+.green-pepper.five {
+  margin: 500px 0 0 300px;
+  transform: rotate(-86deg);
+}
+
+.green-pepper.six {
+  margin: 300px 0 0 200px;
+  transform: rotate(0deg);
+}
+
+.green-pepper.seven {
+  margin: 340px 0 0 295px;
+  transform: rotate(-47deg);
+}
+
+.green-pepper.eight {
+  margin: 500px 0 0 150px;
+  transform: rotate(115deg);
+}
+
+.green-pepper.nine {
+  margin: 300px 0 0 100px;
+  transform: rotate(67deg);
+}
+
+.green-pepper.ten {
+  margin: 400px 0 0 200px;
+  transform: rotate(289deg);
+}
+
+.green-pepper.eleven {
+  margin: 300px 0 0 200px;
+  transform: rotate(0deg);
+}
+
+.green-pepper.twelve {
+  margin: 300px 0 0 200px;
+  transform: rotate(0deg);
+}
+
+.green-pepper.thirteen {
+  margin: 300px 0 0 200px;
+  transform: rotate(0deg);
+}
+
+.green-pepper.fourteen {
+  margin: 210px 0 0 300px;
+  transform: rotate(10deg);
+}
+
+.green-pepper.fifteen {
+  margin: 420px 0 0 290px;
+  transform: rotate(0deg);
+}
+
+.green-pepper.sixteen {
+  margin: 150px 0 0 410px;
+  transform: rotate(50deg);
+}
+
+.green-pepper.seventeen {
+  margin: 260px 0 0 510px;
+  transform: rotate(80deg);
+}
+
+.green-pepper.eightteen {
+  margin: 400px 0 0 410px;
+  transform: rotate(0deg);
+}
+
+.green-pepper.nineteen {
+  margin: 280px 0 0 390px;
+  transform: rotate(150deg);
+}
+
+.green-pepper.twenty {
+  margin: 530px 0 0 420px;
+  transform: rotate(-100deg);
+}
+
+.green-pepper.twenty-one {
+  margin: 360px 0 0 540px;
+  transform: rotate(69deg);
+}
