@@ -1,3 +1,8 @@
+/*
+ * Pizza from:
+ * https://codepen.io/dsmoore/pen/fiwAl?editors=1100#0
+ */
+
 .pepperoni {
   position: absolute;
   width: 80px;
@@ -14,130 +19,130 @@
   color: #fff;
 }
 
-.pepperoni.one {
+.pepperoni.number-1 {
   margin: 60px 0 0 305px;
 }
 
-.pepperoni.two {
+.pepperoni.number-2 {
   margin: 75px 0 0 390px;
 }
 
-.pepperoni.three {
+.pepperoni.number-3 {
   margin: 115px 0 0 470px;
 }
 
-.pepperoni.four {
+.pepperoni.number-4 {
   margin: 190px 0 0 525px;
 }
 
-.pepperoni.five {
+.pepperoni.number-5 {
   margin: 275px 0 0 555px;
 }
 
-.pepperoni.six {
+.pepperoni.number-6 {
   margin: 365px 0 0 550px;
 }
 
-.pepperoni.seven {
+.pepperoni.number-7 {
   margin: 450px 0 0 515px;
 }
 
-.pepperoni.eight {
+.pepperoni.number-8 {
   margin: 515px 0 0 450px;
 }
 
-.pepperoni.nine {
+.pepperoni.number-9 {
   margin: 555px 0 0 365px;
 }
 
-.pepperoni.ten {
+.pepperoni.number-10 {
   margin: 560px 0 0 270px;
 }
 
-.pepperoni.eleven {
+.pepperoni.number-11 {
   margin: 560px 0 0 270px;
 }
 
-.pepperoni.twelve {
+.pepperoni.number-12 {
   margin: 524px 0 0 182px;
 }
 
-.pepperoni.thirteen {
+.pepperoni.number-13 {
   margin: 265px 0 0 355px;
 }
 
-.pepperoni.fourteen {
+.pepperoni.number-14 {
   margin: 233px 0 0 445px;
 }
 
-.pepperoni.fifteen {
+.pepperoni.number-15 {
   margin: 467px 0 0 340px;
 }
 
-.pepperoni.sixteen {
+.pepperoni.number-16 {
   margin: 194px 0 0 197px;
 }
 
-.pepperoni.seventeen {
+.pepperoni.number-17 {
   margin: 329px 0 0 458px;
 }
 
-.pepperoni.eightteen {
+.pepperoni.number-18 {
   margin: 461px 0 0 115px;
 }
 
-.pepperoni.nineteen {
+.pepperoni.number-19 {
   margin: 380px 0 0 69px;
 }
 
-.pepperoni.twenty {
+.pepperoni.number-20 {
   margin: 287px 0 0 60px;
 }
 
-.pepperoni.twenty-one {
+.pepperoni.number-21 {
   margin: 197px 0 0 86px;
 }
 
-.pepperoni.twenty-two {
+.pepperoni.number-22 {
   margin: 125px 0 0 141px;
 }
 
-.pepperoni.twenty-three {
+.pepperoni.number-23 {
   margin: 84px 0 0 218px;
 }
 
-.pepperoni.twenty-four {
+.pepperoni.number-24 {
   margin: 150px 0 0 278px;
 }
 
-.pepperoni.twenty-five {
+.pepperoni.number-25 {
   margin: 167px 0 0 374px;
 }
 
-.pepperoni.twenty-six {
+.pepperoni.number-26 {
   margin: 457px 0 0 247px;
 }
 
-.pepperoni.twenty-seven {
+.pepperoni.number-27 {
   margin: 426px 0 0 426px;
 }
 
-.pepperoni.twenty-eight {
+.pepperoni.number-28 {
   margin: 390px 0 0 177px;
 }
 
-.pepperoni.twenty-nine {
+.pepperoni.number-29 {
   margin: 290px 0 0 153px;
 }
 
-.pepperoni.thirty {
+.pepperoni.number-30 {
   margin: 362px 0 0 267px;
 }
 
-.pepperoni.thirty-one {
+.pepperoni.number-31 {
   margin: 270px 0 0 257px;
 }
 
-.pepperoni.thirty-three {
+.pepperoni.number-32 {
   margin: 358px 0 0 365px;
 }

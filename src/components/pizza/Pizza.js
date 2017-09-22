@@ -9,9 +9,9 @@ class Pizza extends Component {
   render() {
     return (
       <section className="Pizza">
-        <GreenPepperPile />
-        <MushroomPile />
-        <PepperoniPile />
+        <GreenPepperPile amount="21" />
+        <MushroomPile amount="32" />
+        <PepperoniPile amount="32" />
 
         <section className="crust crust-gluten-free">
           <section className="cheese"></section>

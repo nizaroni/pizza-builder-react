@@ -11,109 +11,110 @@
   box-shadow: 2px 2px 2px rgba(66, 132, 45, .9);
   margin: 250px 0 0 400px;
   z-index: 30;
+  text-indent: -9999px;
 }
 
-.green-pepper.one {
+.green-pepper.number-1 {
   margin: 200px 0 0 100px;
   transform: rotate(22deg);
 }
 
-.green-pepper.two {
+.green-pepper.number-2 {
   margin: 450px 0 0 500px;
   transform: rotate(-47deg);
 }
 
-.green-pepper.three {
+.green-pepper.number-3 {
   margin: 195px 0 0 200px;
   transform: rotate(115deg);
 }
 
-.green-pepper.four {
+.green-pepper.number-4 {
   margin: 90px 0 0 300px;
   transform: rotate(67deg);
 }
 
-.green-pepper.five {
+.green-pepper.number-5 {
   margin: 500px 0 0 300px;
   transform: rotate(-86deg);
 }
 
-.green-pepper.six {
+.green-pepper.number-6 {
   margin: 300px 0 0 200px;
   transform: rotate(0deg);
 }
 
-.green-pepper.seven {
+.green-pepper.number-7 {
   margin: 340px 0 0 295px;
   transform: rotate(-47deg);
 }
 
-.green-pepper.eight {
+.green-pepper.number-8 {
   margin: 500px 0 0 150px;
   transform: rotate(115deg);
 }
 
-.green-pepper.nine {
+.green-pepper.number-9 {
   margin: 300px 0 0 100px;
   transform: rotate(67deg);
 }
 
-.green-pepper.ten {
+.green-pepper.number-10 {
   margin: 400px 0 0 200px;
   transform: rotate(289deg);
 }
 
-.green-pepper.eleven {
+.green-pepper.number-11 {
   margin: 300px 0 0 200px;
   transform: rotate(0deg);
 }
 
-.green-pepper.twelve {
+.green-pepper.number-12 {
   margin: 300px 0 0 200px;
   transform: rotate(0deg);
 }
 
-.green-pepper.thirteen {
+.green-pepper.number-13 {
   margin: 300px 0 0 200px;
   transform: rotate(0deg);
 }
 
-.green-pepper.fourteen {
+.green-pepper.number-14 {
   margin: 210px 0 0 300px;
   transform: rotate(10deg);
 }
 
-.green-pepper.fifteen {
+.green-pepper.number-15 {
   margin: 420px 0 0 290px;
   transform: rotate(0deg);
 }
 
-.green-pepper.sixteen {
+.green-pepper.number-16 {
   margin: 150px 0 0 410px;
   transform: rotate(50deg);
 }
 
-.green-pepper.seventeen {
+.green-pepper.number-17 {
   margin: 260px 0 0 510px;
   transform: rotate(80deg);
 }
 
-.green-pepper.eightteen {
+.green-pepper.number-18 {
   margin: 400px 0 0 410px;
   transform: rotate(0deg);
 }
 
-.green-pepper.nineteen {
+.green-pepper.number-19 {
   margin: 280px 0 0 390px;
   transform: rotate(150deg);
 }
 
-.green-pepper.twenty {
+.green-pepper.number-20 {
   margin: 530px 0 0 420px;
   transform: rotate(-100deg);
 }
 
-.green-pepper.twenty-one {
+.green-pepper.number-21 {
   margin: 360px 0 0 540px;
   transform: rotate(69deg);
 }
