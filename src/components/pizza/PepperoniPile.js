@@ -14,11 +14,11 @@ class PepperoniPile extends Component {
 
   renderPepperoniItems() {
     const { amount } = this.props;
-    
+
     var pepperoniItems =
       repeat(amount, function pepperoniItem (count) {
         return (
-          <div className={"pepperoni number-" + count}>
+          <div className={"pepperoni number-" + count} key={count}>
             Pepperoni #{count}
           </div>
         );

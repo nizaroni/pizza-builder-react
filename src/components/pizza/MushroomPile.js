@@ -14,11 +14,11 @@ class MushroomPile extends Component {
 
   renderMushroomItems() {
     const { amount } = this.props;
-    
+
     var mushroomItems =
       repeat(amount, function mushroomItem (count) {
         return (
-          <div className={'mushroom number-' + count}>
+          <div className={'mushroom number-' + count} key={count}>
             <div className="cap"> Mushroom #{count} </div>
             <div className="stem"></div>
           </div>

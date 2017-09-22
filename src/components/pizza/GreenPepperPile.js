@@ -18,7 +18,7 @@ class GreenPepperPile extends Component {
     var greenPepperItems =
       repeat(amount, function greenPepperItem (count) {
         return (
-          <div className={'green-pepper number-' + count}>
+          <div className={'green-pepper number-' + count} key={count}>
             Green Pepper #{count}
           </div>
         );

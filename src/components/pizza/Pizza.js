@@ -7,18 +7,36 @@ import './Pizza.css';
 
 class Pizza extends Component {
   render() {
+    var { ingredients } = this.props;
     return (
       <section className="Pizza">
-        <GreenPepperPile amount="21" />
-        <MushroomPile amount="32" />
-        <PepperoniPile amount="32" />
+        {ingredients.greenPeppers ?
+          <GreenPepperPile amount="21" /> : null}
+        {ingredients.mushrooms ?
+          <MushroomPile amount="32" /> : null}
+        {ingredients.pepperoni ?
+          <PepperoniPile amount="32" /> : null}
 
-        <section className="crust crust-gluten-free">
+        <section className={'crust ' + this.isGlutenFree()}>
           <section className="cheese"></section>
-          <section className="sauce sauce-white"></section>
+          <section className={'sauce ' + this.isWhiteSauce()}></section>
         </section>
       </section>
     );
+  }
+
+  isGlutenFree() {
+    var { ingredients } = this.props;
+    return ingredients.glutenFreeCrust
+      ? 'crust-gluten-free'
+      : '';
+  }
+
+  isWhiteSauce() {
+    var { ingredients } = this.props;
+    return ingredients.whiteSauce
+      ? 'sauce-white'
+      : '';
   }
 }
 
