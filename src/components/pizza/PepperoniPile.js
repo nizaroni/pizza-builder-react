@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import repeat from '../../lib/repeat';
+import repeat from 'lib/repeat';
 import './PepperoniPile.css';
 
 class PepperoniPile extends Component {

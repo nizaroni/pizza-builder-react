@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import repeat from '../../lib/repeat';
+import repeat from 'lib/repeat';
 import './MushroomPile.css';
 
 class MushroomPile extends Component {
