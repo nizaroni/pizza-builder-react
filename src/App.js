@@ -30,7 +30,9 @@ class App extends Component {
           <p>Build your own HTML and CSS pizza.</p>
         </header>
 
-        <IngredientControls ingredients={ingredients} />
+        <IngredientControls
+            updateIngredient={this.updateIngredient}
+            ingredients={ingredients} />
         <PizzaPrice ingredients={ingredients} />
         <Pizza ingredients={ingredients} />
 
@@ -46,6 +48,16 @@ class App extends Component {
         </footer>
       </main>
     );
+  }
+
+  updateIngredient = (ingredientKey) => {
+    this.setState(function (prevState) {
+      var { ingredients } = prevState;
+      ingredients[ingredientKey] = !ingredients[ingredientKey];
+      return {
+        ingredients: ingredients
+      };
+    });
   }
 }
 
